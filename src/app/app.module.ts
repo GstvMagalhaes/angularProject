@@ -7,16 +7,24 @@ import { AppComponent } from './app.component';
 //PRIME NG COMPONETS
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
+import {CardModule} from 'primeng/card';
+import {DividerModule} from 'primeng/divider';
+import { LoginFormComponent } from './components/login-form/login-form.component';
+import {CheckboxModule} from 'primeng/checkbox';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    CardModule,
+    CheckboxModule,
+    DividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
