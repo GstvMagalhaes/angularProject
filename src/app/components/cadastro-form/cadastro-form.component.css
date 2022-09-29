@@ -1,0 +1,125 @@
+
+html{
+    color: #071426;
+    background: #071426;
+    background-color: #071426;
+}
+
+.divcustom{
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    height: 100%;
+    background: -webkit-linear-gradient(to right, #0f1924, #05080e);
+    background: linear-gradient(to right, #0d1927, #080d16);
+    background-image: url("https://images3.alphacoders.com/563/563119.jpg");
+    /* background-image: url("https://wallpapercave.com/wp/wp3493594.png"); */
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.navbar-custom {
+    height: 81px;  
+    margin: 0 auto;
+}
+
+.customIcons{
+    color: white;
+}
+
+.footerCustom{
+    background-color: #071426;
+}
+
+.navbar-custom {
+    background-color: #071426;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.cadastroButton{
+    background-color: #2a80f6;
+    border-color: #141E30;
+    color: black;
+}
+
+.cadastroButton:hover{
+    background-color: #142842;
+    border-color: white;
+    color: white;
+}
+
+.loginButton{
+    background-color: #141E30;
+    border-color: #141E30;
+    color: white;
+}
+
+.loginButton:hover{
+    background-color: #142842;
+    border-color: #85bdfd;
+    color: white;
+}
+
+.loginButton2{
+    background-color: #141E30;
+    border-color: #cac2bb;
+    color: white;
+}
+
+.loginButton2:hover{
+    background-color: #142842;
+    border-color: #85bdfd;
+    color: white;
+}
+
+.githubButton{
+    background-color: #161b22;
+    border-color: white;
+    color: white;
+}
+
+.githubButton:hover{
+    background-color: black;
+    border-color: #85bdfd;
+    color: white;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+    color: #212121;
+    border-radius: 25px;
+}
+
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

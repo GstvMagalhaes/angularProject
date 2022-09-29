@@ -11,11 +11,15 @@ import {CardModule} from 'primeng/card';
 import {DividerModule} from 'primeng/divider';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import {CheckboxModule} from 'primeng/checkbox';
+import { CadastroFormComponent } from './components/cadastro-form/cadastro-form.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    CadastroFormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
