@@ -1,0 +1,56 @@
+
+
+.navbar-custom {
+    height: 77px;  
+    margin: 0 auto;
+}
+
+.customIcons{
+    color: white;
+}
+
+.navbar-custom {
+    background-color: #071426;
+}
+/* Modify brand and text color */
+ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.cadastroButton{
+    background-color: #7fbafd;
+    border-color: #1c2127;
+    color: #1c2127;
+}
+
+.cadastroButton:hover{
+    background-color: #87b7ff;
+    border-color: #1c2127;
+    color: white;
+}
+
+.loginButton{
+    background-color: #141E30;
+    border-color: #141E30;
+    color: white;
+}
+
+.loginButton:hover{
+    background-color: #142842;
+    border-color: #85bdfd;
+    color: white;
+}
+
+.loginButton2{
+    background-color: #141E30;
+    border-color: #7fbafd;
+    color: #7fbafd;
+}
+
+.loginButton2:hover{
+    background-color: #142842;
+    border-color: #85bdfd;
+    color: white;
+}
